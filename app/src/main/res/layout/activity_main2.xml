@@ -7,7 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity2">
-
+    <TextView
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:text="Kotlin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/buttonId"
         android:text="Button"
