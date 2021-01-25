@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener(){
             val intent=Intent(this,MainActivity2::class.java);
             startActivity(intent)
-           // Toast.makeText(this@MainActivity, "Button click!", Toast.LENGTH_SHORT).show();
             Toast.makeText(this,"Button click",Toast.LENGTH_SHORT).show();
         }
         button1.setOnClickListener(){

@@ -18,8 +18,9 @@ Button button;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              
-                Toast.makeText(MainActivity3.this, "clicked", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(MainActivity3.this,MainActivity.class);
+                startActivity(intent);
+               // Toast.makeText(MainActivity3.this, "clicked", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -10,12 +10,12 @@
 
    <Button
     android:id="@+id/buttonId"
-    android:text="Button"
+    android:text="Kotlin Activity"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
    <Button
        android:id="@+id/buttonId2"
-       android:text="Button"
+       android:text="Lava Activity"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
 
